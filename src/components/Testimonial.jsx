@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
+import Image from 'next/image'
 
 const Testimonial = () => {
     return (
@@ -33,8 +34,14 @@ const Testimonial = () => {
                         </div>
                         <div className="px-5 flex items-center justify-between">
                             <div className="flex items-center gap-3">
-                                <div className="h-10 w-10 rounded-full bg-amber-100" />
-
+                                <div className="relative h-10 w-10 overflow-hidden rounded-full">
+                                    <Image
+                                        src="/assets/amit-avatar.avif"
+                                        alt="Amit Sharma"
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
                                 <div>
                                     <h3 className="text-xs font-bold text-gray-900">
                                         Amit Sharma
