@@ -143,7 +143,7 @@ const PopularVehicles = () => {
     const [activeTab, setActiveTab] = useState('Bikes');
 
     return (
-        <section className="px-6 py-16 sm:px-[6.5%]">
+        <section className="w-[90%] mx-auto">
 
             <div className="mb-6 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
 

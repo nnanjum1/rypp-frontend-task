@@ -3,6 +3,7 @@ import ExploreBehicle from "@/components/ExploreBehicle";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import PopularVehicles from "@/components/PopularVehicles";
+import WhyRypp from "@/components/WhyRypp";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <ChooseYourRide />
       <ExploreBehicle />
       <PopularVehicles />
+      <WhyRypp />
     </main>
   );
 }

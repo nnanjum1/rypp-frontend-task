@@ -9,7 +9,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="relative w-[90%] mx-auto py-4">
+        <nav className="relative w-[90%] mx-auto py-4 top-0 ">
             <div className="flex items-center justify-between">
 
                 <div >

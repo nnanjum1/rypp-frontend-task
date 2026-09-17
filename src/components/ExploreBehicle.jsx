@@ -19,10 +19,10 @@ const ExploreBehicle = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/60" />
 
 
-            <div className="relative z-10 flex min-h-[350px] flex-col justify-between px-6 py-10 sm:px-[6.5%]">
+            <div className="relative z-10 flex min-h-[350px] flex-col justify-between w-[90%] mx-auto py-10 ">
 
 
-                <div className="flex flex-1 items-center">
+                <div className="flex flex-1 items-center ">
 
 
                     <div className="max-w-2xl">
