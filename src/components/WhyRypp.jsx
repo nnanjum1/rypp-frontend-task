@@ -146,7 +146,7 @@ const WhyRypp = () => {
                             />
 
                             <img
-                                src="/assets/rypp-logo.png.png"
+                                src="/assets/rypp-logo2.png"
                                 alt="RYPP Logo"
                                 className="absolute left-1/2 top-[35%] w-10 -translate-x-1/2 object-contain"
                             />
