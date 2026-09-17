@@ -1,36 +1,159 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RYPP – Vehicle Rental Homepage
+
+A responsive vehicle rental homepage developed as part of the **RYPP Frontend Developer Task**.
+
+The project recreates the provided RYPP homepage design using Next.js, React, TypeScript, and Tailwind CSS, with responsive layouts and interactive features.
+
+## Live Demo
+
+https://rypp-frontend-task.vercel.app/
+
+## GitHub Repository
+
+https://github.com/nnanjum1/rypp-frontend-task
+
+## Features
+
+* Responsive homepage for desktop, tablet, and mobile
+* Responsive navigation with mobile menu
+* Hero section based on the provided RYPP design
+* Vehicle category filtering:
+
+  * Bikes
+  * Scooters
+  * Cars
+* Vehicle cards with mock/static data
+* Book Now interaction
+* Destination section with mock/static data
+* Newsletter email validation
+* Responsive footer
+* Reusable React components
+* Clean and organized code structure
+
+## Tech Stack
+
+* **Next.js**
+* **React.js**
+* **TypeScript**
+* **Tailwind CSS**
+* **Lucide React**
+* **React Icons**
+
+## Project Structure
+
+```text
+src/
+├── app/
+│   ├── page.tsx
+│   └── ...
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── VehicleSection.tsx
+│   ├── VehicleCard.tsx
+│   ├── DestinationCard.tsx
+│   ├── Newsletter.tsx
+│   ├── Footer.tsx
+│   └── ...
+│
+└── data/
+    └── ...
+
+public/
+└── assets/
+    └── ...
+```
 
 ## Getting Started
 
-First, run the development server:
+### Clone the repository
+
+```bash
+git clone https://github.com/nnanjum1/rypp-frontend-task.git
+```
+
+### Navigate to the project
+
+```bash
+cd rypp-frontend-task
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create a production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+To run the production build locally:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Responsive Design
 
-## Deploy on Vercel
+The homepage is designed to provide a responsive experience across:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Desktop
+* Laptop
+* Tablet
+* Mobile
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The navigation, hero section, vehicle cards, images, buttons, and other content adapt to different screen sizes.
+
+## Functionality
+
+### Vehicle Filtering
+
+Users can filter the available vehicles by category:
+
+* Bikes
+* Scooters
+* Cars
+
+### Book Now
+
+The **Book Now** interaction allows users to start the vehicle booking flow using the available mock vehicle data.
+
+### Newsletter
+
+The newsletter form includes basic email validation to handle invalid email input.
+
+## Data
+
+The project uses mock/static data for vehicles and destinations as required by the task. No external booking or vehicle database is connected.
+
+## Screenshot
+
+![RYPP Vehicle Rental Homepage](./screenshots/rypp-homepage-desktop.png)
+
+
+
+## Task
+
+This project was developed as part of the **RYPP Frontend Developer hiring task**, with a focus on:
+
+* UI implementation
+* Responsive design
+* React fundamentals
+* Reusable components
+* Interactive functionality
+* Clean code structure
+* User-friendly experience
