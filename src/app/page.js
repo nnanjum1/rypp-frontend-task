@@ -5,6 +5,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Navbar from "@/components/Navbar";
 import PopularDestinations from "@/components/PopularDestinations";
 import PopularVehicles from "@/components/PopularVehicles";
+import Testimonial from "@/components/Testimonial";
 import WhyRypp from "@/components/WhyRypp";
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       <WhyRypp />
       <PopularDestinations />
       <HowItWorks />
+      <Testimonial />
     </main>
   );
 }
