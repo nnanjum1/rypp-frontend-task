@@ -10,7 +10,7 @@ import {
 const ExploreBehicle = () => {
     return (
         <section
-            className="relative w-full overflow-hidden bg-cover bg-center"
+            className="relative h-[280px] w-full overflow-hidden bg-cover bg-right md:h-[320px]"
             style={{
                 backgroundImage: "url('/assets/road.jpg')",
             }}

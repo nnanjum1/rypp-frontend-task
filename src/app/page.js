@@ -1,4 +1,5 @@
 import ChooseYourRide from "@/components/ChooseYourRide";
+import CTA from "@/components/CTA";
 import ExploreBehicle from "@/components/ExploreBehicle";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
@@ -23,6 +24,7 @@ export default function Home() {
       <HowItWorks />
       <Testimonial />
       <Metrics />
+      <CTA />
     </main>
   );
 }
