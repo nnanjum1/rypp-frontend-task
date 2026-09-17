@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 
 const Testimonial = () => {
     return (
-        <section className="mx-auto w-[90%] py-16">
+        <section className="mx-auto w-full">
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
 
 
