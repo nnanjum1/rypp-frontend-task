@@ -1,6 +1,7 @@
 import ChooseYourRide from "@/components/ChooseYourRide";
 import CTA from "@/components/CTA";
 import ExploreBehicle from "@/components/ExploreBehicle";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Metrics from "@/components/Metrics";
@@ -25,6 +26,7 @@ export default function Home() {
       <Testimonial />
       <Metrics />
       <CTA />
+      <Footer />
     </main>
   );
 }
