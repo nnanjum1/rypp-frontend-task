@@ -63,8 +63,7 @@ const Testimonial = () => {
 
 
                 <div
-                    className="relative  overflow-hidden rounded-2xl bg-cover bg-center"
-                    style={{ backgroundImage: "url('/assets/road2.jpg')" }}
+                    className="relative overflow-hidden rounded-2xl bg-cover bg-[65%_center]" style={{ backgroundImage: "url('/assets/road2.jpg')" }}
                 >
                     <div className="absolute inset-0 bg-black/60" />
 

@@ -15,7 +15,7 @@ const Hero = () => {
         >
 
             <div className="w-[90%] mx-auto">
-                <div className="absolute inset-0 bg-gradient-to-r from-[#FDFCFD] via-[#FDFCFD]/95 via-[20%] via-[#FDFCFD]/10 via-[5%] to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#FDFCFD] via-[#FDFCFD]/95 via-[20%] via-[#FDFCFD]/10 via-[50%] to-transparent" />
 
 
                 <div className="relative z-10 flex w-full flex-col justify-center  py-12 ">
@@ -83,7 +83,7 @@ const Hero = () => {
                     </div>
 
 
-                    <div className="md:w-[50%] sm:w-[70%] grid mt-5 lg:grid-cols-4 grid-cols-2 items-center gap-x-0">
+                    <div className="md:w-[50%] sm:w-[70%] grid mt-5 lg:grid-cols-4 grid-cols-2 items-center gap-x-0 gap-y-2">
 
                         <div className="flex items-center gap-2">
                             <IoIosPeople

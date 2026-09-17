@@ -1,3 +1,4 @@
+
 import React from 'react'
 import {
     FaLinkedinIn,
@@ -32,18 +33,18 @@ const supportLinks = [
 
 const Footer = () => {
     return (
-        <footer className="bg-[#0B0F12]  py-12 ">
-            <div className='w-[90%] mx-auto text-center md:text-left'>
-                <div className=" grid grid-cols-1 gap-8 pb-10 md:grid-cols-2 lg:grid-cols-5 ">
+        <footer className="bg-[#0B0F12] py-12">
+            <div className="mx-auto w-[90%]">
 
-                    <div>
-                        <div className="flex items-center gap-2">
-                            <span className="text-xl font-extrabold text-[#FD1022]">
-                                RYPP
-                            </span>
-                            <span className="text-xs text-gray-400">
-                                Ride Your Way
-                            </span>
+                <div className="grid grid-cols-1 gap-8 pb-10 text-center md:grid-cols-2 md:justify-items-center lg:grid-cols-5 lg:justify-items-start lg:text-left">
+
+                    <div className="w-full">
+                        <div className="flex items-center justify-center lg:justify-start">
+                            <img
+                                src="/assets/rypp-logo2.png"
+                                alt="RYPP"
+                                className="h-12 w-auto bg-white object-contain"
+                            />
                         </div>
 
                         <p className="mt-4 text-xs font-medium text-gray-400">
@@ -54,7 +55,7 @@ const Footer = () => {
                             Bike • Car • Rentals
                         </p>
 
-                        <div className="mt-5 flex gap-2">
+                        <div className="mt-5 flex justify-center gap-2 lg:justify-start">
                             <button className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-800/80 text-gray-300 transition hover:bg-[#FD1022] hover:text-white">
                                 <FaLinkedinIn size={14} />
                             </button>
@@ -77,8 +78,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-
-                    <div>
+                    <div className="w-full">
                         <h3 className="mb-3 text-xs font-bold uppercase tracking-wider text-white">
                             Quick Links
                         </h3>
@@ -87,7 +87,7 @@ const Footer = () => {
                             {quickLinks.map((link) => (
                                 <p
                                     key={link}
-                                    className="text-xs text-gray-400 hover:text-white"
+                                    className="text-xs text-gray-400 transition hover:text-white"
                                 >
                                     {link}
                                 </p>
@@ -96,7 +96,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div>
+                    <div className="w-full">
                         <h3 className="mb-3 text-xs font-bold uppercase tracking-wider text-white">
                             Support
                         </h3>
@@ -105,7 +105,7 @@ const Footer = () => {
                             {supportLinks.map((link) => (
                                 <p
                                     key={link}
-                                    className="text-xs text-gray-400 hover:text-white"
+                                    className="text-xs text-gray-400 transition hover:text-white"
                                 >
                                     {link}
                                 </p>
@@ -114,30 +114,31 @@ const Footer = () => {
                     </div>
 
 
-                    <div>
+                    <div className="w-full">
                         <h3 className="mb-3 text-xs font-bold uppercase tracking-wider text-white">
                             Contact Us
                         </h3>
 
                         <div className="space-y-3 text-xs text-gray-300">
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center justify-center gap-2 lg:justify-start">
                                 <Phone size={14} />
                                 <span>+91 98765 43210</span>
                             </div>
 
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center justify-center gap-2 lg:justify-start">
                                 <Mail size={14} />
                                 <span>hello@rypp.in</span>
                             </div>
 
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center justify-center gap-2 lg:justify-start">
                                 <MapPin size={14} />
                                 <span>Bengaluru, India</span>
                             </div>
                         </div>
                     </div>
 
-                    <div>
+
+                    <div className="w-full max-w-xs">
                         <h3 className="text-xs font-bold uppercase tracking-wider text-white">
                             Subscribe to our newsletter
                         </h3>
@@ -160,16 +161,20 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center justify-between gap-3 border-t border-gray-800/80 pt-6 text-[11px] text-gray-500 md:flex-row">
-                    <p>© 2026 RYPP. All Rights Reserved.</p>
 
-                    <p>Ride Your Way. Explore More.</p>
+                <div className="flex flex-col items-center justify-between gap-3 border-t border-gray-800/80 pt-6 text-[11px] text-gray-500 md:flex-row">
+                    <p>
+                        © 2026 RYPP. All Rights Reserved.
+                    </p>
+
+                    <p>
+                        Ride Your Way. Explore More.
+                    </p>
                 </div>
             </div>
-
-
         </footer>
     )
 }
 
 export default Footer
+
