@@ -2,6 +2,7 @@ import ChooseYourRide from "@/components/ChooseYourRide";
 import ExploreBehicle from "@/components/ExploreBehicle";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import PopularVehicles from "@/components/PopularVehicles";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <ChooseYourRide />
       <ExploreBehicle />
+      <PopularVehicles />
     </main>
   );
 }
