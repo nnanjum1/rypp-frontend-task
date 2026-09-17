@@ -12,16 +12,13 @@ const Navbar = () => {
         <nav className="relative w-[90%] mx-auto py-4 top-0 ">
             <div className="flex items-center justify-between">
 
-                <div >
-                    <Image
+                <div>
+                    <img
                         src="/assets/rypp-logo2.png"
                         alt="RYPP - Ride Your Way"
-                        width={40}
-                        height={40}
-                        priority
+                        className="h-10 w-auto object-contain"
                     />
                 </div>
-
 
                 <div className="hidden items-center gap-5 xl:gap-7 lg:flex">
                     <a
